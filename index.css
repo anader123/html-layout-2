@@ -1,0 +1,162 @@
+
+.top-navbar {
+    width: 100vw; 
+    min-height: 8vh; 
+    background: black; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    z-index: 5;
+    position: fixed; 
+}
+
+.spacex-logo {
+    width: 256px; 
+    height: 116px;
+    margin-left: 20px;
+    display: flex; 
+    align-items: center;   
+}
+
+.big-font-list {
+    color: white; 
+    display: flex; 
+    width: 25vw; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    align-items: center;
+    list-style-type: none;
+}
+
+.small-font-list {
+    color: gray; 
+    font-size: 13px;
+    width: 25vw;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    list-style-type: none;
+}
+
+.large-image {
+    width: 100vw;
+    height: 75vh;
+    margin-top: 8vh;
+}
+
+.middle-container { 
+    background: rgb(49, 48, 48);
+    color: white;
+    width: 100vw; 
+    height: 12vh;
+}
+
+.mid-container-text {
+    height: 9vh;
+    font-size: 25px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.learn-button {
+    height: 45px;
+    width: 100px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end;
+    margin-left: 70px; 
+}
+
+.middle-bar {
+    background: rgb(49, 48, 48);
+    color: white; 
+    font-size: 10px; 
+    width: 100vw; 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.middle-page-text {
+    width: 100vw; 
+    height: 150px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.middle-three-box-container {
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    font-size: 14px;
+    color: black;
+    font-weight: bold; 
+}
+
+.box-1 {
+    display: flex; 
+    flex-direction: column; 
+    border: solid 1px lightgray;
+    padding: 20px; 
+    padding-bottom: 60px; 
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+.box-2 {
+    display: flex; 
+    flex-direction: column; 
+    border: solid 1px lightgray;
+    padding: 20px; 
+    padding-bottom: 60px; 
+    margin-left: 30px;
+    margin-right: 30px; 
+    box-shadow: 1px 1px 1px 1px lightgray;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-3 {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    border: solid 1px lightgray;
+    padding: 20px; 
+    padding-bottom: 60px; 
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+.bottom-navbar {
+    margin-top: 200px;
+    width: 100vw; 
+    height: 5vh;
+    color: white; 
+    background: black; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.bottom-spacex-logo {
+    height: 20px;
+    width: 20vw;
+}
+
+.social-bar { 
+    width: 20vw; 
+    font-size: 14px;
+    display: flex;  
+    justify-content: space-around; 
+}
+
+.bottom-watermark {
+    font-size: 10px; 
+    color: gray; 
+    width: 20vw;
+    display: flex;
+    justify-content: flex-end;
+}
